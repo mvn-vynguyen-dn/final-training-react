@@ -38,7 +38,7 @@ const CardDetail = () => {
       }
       setCard(card)
     });
-  }, [id]);
+  }, [id, favs]);
   return (
     <div className="container">
       <ul className="product-list row">
